@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "eventsystem:item/raffle_ticket"
+  }
+}
