@@ -1,0 +1,29 @@
+{
+  "__note": "크게 (자동 맞춤: 한글 높이 10px 기준). 크기는 GUI 에서 고릅니다.",
+  "providers": [
+    {
+      "__note": "띄어쓰기는 바닐라 것을 그대로 쓴다. 글꼴마다 공백 폭이 다르면 칭호 정렬이 흔들린다.",
+      "type": "reference",
+      "id": "minecraft:include/space"
+    },
+    {
+      "__note": "먼저 적힌 제공자가 이긴다 - 이 글꼴에 있는 글자는 여기서 나온다.",
+      "type": "ttf",
+      "file": "eventsystem:jua.ttf",
+      "size": 12.5,
+      "oversample": 2.0,
+      "shift": [0.0, 0.0]
+    },
+    {
+      "__note": "이 글꼴에 없는 글자는 바닐라 글꼴로 떨어진다. 우아한 세리프처럼 영문이 아예 없는 글꼴이 있다.",
+      "type": "reference",
+      "id": "minecraft:include/default",
+      "filter": { "uniform": false }
+    },
+    {
+      "__note": "그래도 없으면 unifont.",
+      "type": "reference",
+      "id": "minecraft:include/unifont"
+    }
+  ]
+}
