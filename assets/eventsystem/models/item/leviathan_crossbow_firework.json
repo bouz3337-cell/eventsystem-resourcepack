@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/crossbow",
+  "textures": {
+    "layer0": "eventsystem:item/leviathan_crossbow_firework"
+  }
+}
